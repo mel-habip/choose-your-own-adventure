@@ -22,3 +22,35 @@ body {
   display: flex;
   align-items: center;
 }
+
+.typewriter {
+  font-family:
+    'American Typewriter',
+    'MODERN TYPEWRITER',
+    'Courier',
+    'Courier New',
+    monospace;
+  letter-spacing: .08em;
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: pink;
+  }
+}
+
+.hoverable-button {
+  transition: color smooth 1s
+}
+
+.hoverable-button:hover {
+  background-color: gray;
+  color: white;
+}

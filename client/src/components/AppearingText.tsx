@@ -35,5 +35,5 @@ export default function AppearingText({ text }: { text: string }) {
 
     }, [isDone, text]);
 
-    return <h2>{innerText}</h2>
+    return <h2 className="typewriter" >{innerText}</h2>
 }
